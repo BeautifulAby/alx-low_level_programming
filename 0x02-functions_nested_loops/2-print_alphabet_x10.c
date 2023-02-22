@@ -5,6 +5,8 @@
  */
 void print_10_alphabets(void)
 {
+char a;
+int i;
 	for (int i = 1; i <= 10; i++)
 	{
 	for (char a = 'a'; a <= 'z'; a++)
