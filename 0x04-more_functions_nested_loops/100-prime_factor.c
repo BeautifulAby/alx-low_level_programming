@@ -2,9 +2,9 @@
 #include <math.h>
 
 /**
- * main - finds and prints the largest prime factor of the number
- * 612852475143 followed by a new line
- * Return: Always 0
+ * main - finds and prints the largest prime factor of the number 612852475143
+ * followed by a new line
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -32,7 +32,7 @@ int main(void)
 
 	if (n > 2)
 		max = n;
-	printf("%1d\n", max);
+	printf("%ld\n", max);
 
 	return (0);
 }
